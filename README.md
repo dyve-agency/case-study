@@ -42,7 +42,7 @@ You have to implement a simple  CRUD Food_logger where the user  can log their c
 * [Main tasks](#main-tasks)
 * [Optional tasks](#optional-tasks)
 
-### Main tmdasks
+### Main tasks
 
 1. A user should be able to sign up/ sign in to the app.
 
