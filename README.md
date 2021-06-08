@@ -87,3 +87,4 @@ You have to implement a simple  CRUD Food_logger where the user  can log their c
 
 3. Start the study-case.
 
+4. Create a pull request to this repo with your case study. Let your contact know that you completed the PR.
