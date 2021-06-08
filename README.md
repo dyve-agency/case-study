@@ -4,7 +4,7 @@
 * [Frame conditions](#frame-conditions)
 * [Tasks](#tasks)
 * [Procedure](#procedure)
-* [License](#license)
+
 
 ## Topic
 
