@@ -15,7 +15,6 @@ You have to implement a simple  CRUD Food_logger where the user  can log their c
 1. You have 4 hours of time.
 
    If you reach this time limit stop your work and send us your work.  It is one part of the case-study to respect this time limit.
-   It is one part of the kata to respect this time limit.
 
 2. There are no restrictions on how to use the provided time.
    If you want to code the entire time, take a break or a coffee - it’s up to you.
