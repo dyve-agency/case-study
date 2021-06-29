@@ -8,4 +8,6 @@ Rails.application.routes.draw do
       sign_out: "logout",
       sign_up:  "register"
     }
+
+    resources :meals, only: [:new, :create, :edit, :update, :destroy]
 end
