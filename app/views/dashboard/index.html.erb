@@ -1,4 +1,4 @@
-<div>
+<div class="container">
   <%= link_to "Add entry", new_meal_path %>
   <table class="table">
     <caption>Meals</caption>
@@ -13,7 +13,9 @@
     </thead>
     <tbody>
       <% @meals.each do |date, meals| %>
-        <tr><td><%= date %><td></tr>
+        <tr>
+          <th><%= date %><th>
+        </tr>
         <% meals.each do |meal| %>
           <tr>
             <td><%= meal.meal_type %></td>
