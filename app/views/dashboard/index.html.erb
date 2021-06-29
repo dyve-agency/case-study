@@ -12,16 +12,19 @@
       </tr>
     </thead>
     <tbody>
-      <% @meals.each do |meal| %>
-        <tr>
-          <td><%= meal.meal_type %></td>
-          <td><%= meal.calories %></td>
-          <td><%= meal.proteins %></td>
-          <td><%= meal.carbohydrates %></td>
-          <td><%= meal.fats %></td>
-          <td><%= link_to "Edit", edit_meal_path(meal), id: "#{meal.id}" %></td>
-          <td><%= link_to "Destroy", meal_path(meal), id: "#{meal.id}", method: :delete, data: { confirm: "Are you sure?" } %></td>
-        </tr>
+      <% @meals.each do |date, meals| %>
+        <tr><td><%= date %><td></tr>
+        <% meals.each do |meal| %>
+          <tr>
+            <td><%= meal.meal_type %></td>
+            <td><%= meal.calories %></td>
+            <td><%= meal.proteins %></td>
+            <td><%= meal.carbohydrates %></td>
+            <td><%= meal.fats %></td>
+            <td><%= link_to "Edit", edit_meal_path(meal), id: "#{meal.id}" %></td>
+            <td><%= link_to "Destroy", meal_path(meal), id: "#{meal.id}", method: :delete, data: { confirm: "Are you sure?" } %></td>
+          </tr>
+        <% end %>
       <% end %>
     </tbody>
   </table>
